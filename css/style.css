@@ -1,0 +1,375 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(92, 13, 92, 0.834);
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    width: 60px;
+    border-radius: 25%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.logo:hover {
+    width: 70px;
+    box-shadow: 0px 5px 10px;
+    transition: all;
+    transition-duration: 1s;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+nav a:hover {
+    font-size: 22px;
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+}
+.text1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.text1 a {
+    padding: 10px;
+}
+.text1 a:hover {
+    font-size: 22px;
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+}
+.search {
+    width: 300px;
+    height: 40px;
+    border-radius: 5%;
+    border-radius: 25px;
+    background-color: #1c252c;
+    color: white;
+}
+.wert {
+    background-color: blueviolet;
+    color: white;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+}
+.wert:hover {
+    background-color: #1c252c;
+    color: white;
+}
+.wert:active {
+    background-color: orange;
+    transform: translateY(4px);
+}
+.head {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+table {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    background: orange;
+}
+table th, td {
+    border: 1px solid black;
+    color: white;
+}
+.tour {
+    background-color:blueviolet ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour2 {
+    background-color:gray ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour2:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour3 {
+    background-color:green ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour3:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour4 {
+    background-color:rgb(10, 105, 163) ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour4:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour6 {
+    background-color:rgb(15, 1, 70) ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour6:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour5 {
+    background-color:rgb(1, 70, 6) ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour5:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.tour7 {
+    background-color:gold;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.tour7:hover {
+    box-shadow: 0px 5px 10px black;
+}
+.voron {
+    width: 145px;
+}
+.riko {
+    width: 250px;
+    margin-bottom: 38px;
+}
+.edgar {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.nani {
+    width: 200px;
+    margin-bottom: 55px;
+}
+.spaik {
+    width: 250px;
+    margin-bottom: 10px;
+}
+.colt {
+    width: 300px;
+    margin-bottom: 30px;
+}
+.logotap {
+    width: 200px;
+}
+.vvv {
+    position: absolute;
+    top: 350px;
+}
+.vv {
+    position: absolute;
+    top: 500px;
+}
+.vvw {
+    position: absolute;
+    top: 660px;
+}
+.vw {
+    position: absolute;
+    top: 810px;
+}
+.logotap:hover {
+    width: 215px;
+    transition: all;
+    transition-duration: 1s;
+}
+.submit {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px black;
+  transition: all 0.3s ease;
+  padding: 10px;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    box-shadow: 5px 5px 0x red;
+}
+.submit:active {
+    background-color: yellow;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+body {
+    background: url(https://i.playground.ru/p/PdHmkyS_rMQO0Ak65IZ_ZA.jpeg);
+    object-fit: cover;
+}
+.grid_container {
+  display: flex;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.pravila {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.pra {
+    width: 250px;
+}
+.pravila:hover {
+    font-size: 22px;
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+}
+.wwww {
+    color: white;
+    font-size: 18px;
+}
+.card {
+    background: gray;
+    width: fit-content;
+    margin-top: 30px;
+    text-align: center;
+}
+.otz {
+    width: 250px;
+    height: 50px;
+    object-fit: cover;
+}
+.card_2 {
+    background: gray;
+    width: fit-content;
+    height: 120px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cvb {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.cvb:hover {
+    font-size: 22px;
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+}
+.card_1 {
+    display: flex;
+    justify-content: space-around;
+}
+.qq {
+   font-size: 17px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.qq:hover {
+    background: rgb(72, 75, 4);
+    transition: all;
+    transition-duration: 1s;
+}
+.ww {
+    font-size: 18px;
+}
+.ww:hover {
+    background: rgb(72, 75, 4);
+    transition: all;
+    transition-duration: 1s;
+}
+.card_3 {
+    background: gray;
+    width: fit-content;
+    height: 120px;
+    margin-top: 30px;
+    text-align: center;
+}
+footer {
+    background-color: rgb(17, 107, 191);
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.con {
+    width: 300px;
+}
+.foot {
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+.fot {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.like {
+    width: 25px;
+    position: absolute;
+    top: 604px;
+}
+.lik {
+    width: 25px;
+    position: absolute;
+    top: 914px;
+}
+.like:hover {
+    width: 30px;
+    transition: all;
+    transition-duration: 1s;
+    box-shadow: 0px 5px 10px red;
+}
+.lik:hover {
+    width: 30px;
+    transition: all;
+    transition-duration: 1s;
+    box-shadow: 0px 5px 10px red;
+}
+@media (max-width:500px) {
+      .grid_container {
+        width: 100%;
+      }
+}

@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.spraut {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    animation: spraut 3s infinite;
+    object-fit: cover;
+}
+.gem {
+    width: 150px;
+    text-align: center;
+}
+.header {
+    justify-content: space-between;
+    display: flex;
+}
+.header_2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: green;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+.gem_text {
+    font-size: 18px;
+}
+@keyframes spraut {
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: 18-deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+form {
+    border: 1px solid gray;
+    width: fit-content;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 450px;
+    margin-left: 580px;
+    margin-top: 80px;
+    background: #21203d;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head {
+    display: flex;
+    align-items: flex-start;
+}
+.mine {
+    display: flex;
+}
+.email {
+    height: 40px;
+    background-color: darkslateblue;
+    color: white;
+}
+span {
+    text-decoration: none;
+    color: white;
+}
+.google {
+    width: 15px;
+}
+.div1 {
+    padding: 10px;
+    background-color: indigo;
+}
+.reg {
+    padding: 10px;
+    background: darkblue;
+    color: white;
+}
+.naz {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+body {
+    background: url(https://amiel.club/uploads/posts/2022-03/1647538944_32-amiel-club-p-kartinki-bravl-36.png);
+}
+.radio {
+    color: blue;
+}

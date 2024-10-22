@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+form {
+    border: 1px solid gray;
+    width: fit-content;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 380px;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #21203d;
+    color: white;
+}
+.head {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+.login , .password {
+    height: 35px;
+    background: indigo;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+.submit {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90px;
+    padding: 10px;
+    background: darkblue;
+    color: white;
+    border-radius: 25px;
+}
+
+.avto {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 25px;
+}
+.logotap {
+    display: flex;
+    justify-content: space-between;
+} 
+.avto button {
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.naza {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: url(../video\ and\ photo/i.webp);
+}
+.nazr {
+    text-decoration: none;
+    color: white;
+}
